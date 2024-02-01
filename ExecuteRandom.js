@@ -1,6 +1,6 @@
 
 let imgArray = ['CatNo1.jpg', 'CatNo2.gif', 'CatNo3.jpg', 'CatNo4.jpg', 'CatNo5.gif', 'CatNo6.png', 'CatNo7.png', 'CatNo8.gif'];
-let imgCatHappy = ['CatYes1.gif', 'CatYes2.gif', 'CatYes3.gif', 'CatYes4.gif', 'CatYes5.gif'];
+let imgCatHappy = ['catYes1.gif', 'catYes2.gif', 'catYes3.gif', 'catYes4.gif', 'catYes5.gif'];
 let basePath="resources/CatNo/";
 let modeSelected
 let button = document.querySelector("nobtn");
