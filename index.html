@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DeaddFinally - Valentine Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/resources/icon.png">
+</head>
+<script src="https://cdn.jsdelivr.net/npm/js-confetti@latest/dist/js-confetti.browser.js"></script>
+<body id="body" onload="loadNew()">
+
+    <canvas id="confetti"></canvas>
+
+    <div class="question">
+        <img id="cat" src="resources/cat.gif">
+        <h1 id="maintitle">Will you be mine valentine?</h1>
+        <h2 id="noisnotanoption"></h2>
+        <div class="btn-group">
+            <button id="yesbtn" onclick="yesClicked()">Yes</button>
+            <button id="nobtn">No</button>
+        </div>
+    </div>
+
+    <footer id="footer">
+        <p>DeaddFinally@<script>document.write(new Date().getFullYear())</script></p>
+        <ul>
+            <p>inspirated by average TikTok videos || pls dont look at source code. It's trash.</p>
+        </ul>
+        <a href="index.html">Refresh Page</a>
+    </footer>
+
+    <script src="ExecuteRandom.js"></script>
+
+</body>
+</html>
